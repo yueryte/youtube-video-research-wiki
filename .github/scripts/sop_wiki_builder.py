@@ -421,7 +421,7 @@ pages_created: {len(all_written)}
                 if r.returncode == 0:
                     print("[wiki-builder] Push successful")
                     break
-                git_run(["pull", "--ff-only", "origin", "main"], wiki_path)
+                git_run(["pull", "--rebase", "origin", "main"], wiki_path)
 
     print(f"\n[wiki-builder] Done: {len(all_written)} pages | {total_calls} API calls | {duration}s")
     print(json.dumps({"status": "success", "pages": len(all_written),
