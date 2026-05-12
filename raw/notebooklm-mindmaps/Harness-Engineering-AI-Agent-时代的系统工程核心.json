@@ -1,0 +1,533 @@
+{
+  "nodes": [
+    {
+      "id": "a5e33067",
+      "type": "text",
+      "text": "{'name': 'Harness Engineering (马具工程)', 'children': [{'name': '核心概念', 'children': [{'name': '定义', 'children': [{'name': 'Agent减去大模型'}, {'name': '控制和驾驭模型的系统'}]}, {'name': '演进路径', 'children': [{'name': 'Prompt Engineering (提示词)'}, {'name': 'Context Engineering (上下文)'}, {'name': 'Harness Engineering (系统架构)'}]}, {'name': '核心公式', 'children': [{'name': 'Harness = Agent - Model'}]}]}, {'name': 'OpenAI 实战方案', 'children': [{'name': '上下文管理', 'children': [{'name': '压缩agent.md (约100行目录结构)'}, {'name': '单一事实来源 (搬迁决策至代码仓)'}]}, {'name': '验证与反馈', 'children': [{'name': 'Chrome Dev Tools (UI验证)'}, {'name': '可观测性工具栈 (日志与链路)'}, {'name': '分层架构依赖检测 (Lint/测试)'}]}, {'name': '技术债清理', 'children': [{'name': '后台任务自动扫描代码库'}, {'name': '自动修复陈旧文档'}]}]}, {'name': 'Anthropic 实战方案 (F-Harness)', 'children': [{'name': 'Planner (需求拆解与规划)'}, {'name': 'Generator (代码生成)'}, {'name': 'Evaluator (独立第三方质量评估)'}, {'name': '交互标准讨论机制'}]}, {'name': '行业争议与本质', 'children': [{'name': '支持者观点', 'children': [{'name': '提供系统工程思维框架'}, {'name': '显著提升稳定性与生产力'}]}, {'name': '质疑者观点', 'children': [{'name': '新瓶装旧酒 (集成现有技术)'}, {'name': '可能被更强的模型能力吸收'}]}]}, {'name': '软件工程师新职责', 'children': [{'name': '人类掌舵 (设定方向与规则)'}, {'name': 'Agent执行 (繁琐开发任务)'}, {'name': '搭建可靠的支架系统'}]}]}",
+      "x": 0,
+      "y": 0,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "721fb08e",
+      "type": "text",
+      "text": "{'name': '核心概念', 'children': [{'name': '定义', 'children': [{'name': 'Agent减去大模型'}, {'name': '控制和驾驭模型的系统'}]}, {'name': '演进路径', 'children': [{'name': 'Prompt Engineering (提示词)'}, {'name': 'Context Engineering (上下文)'}, {'name': 'Harness Engineering (系统架构)'}]}, {'name': '核心公式', 'children': [{'name': 'Harness = Agent - Model'}]}]}",
+      "x": 250,
+      "y": 0,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "61f2e68f",
+      "type": "text",
+      "text": "{'name': '定义', 'children': [{'name': 'Agent减去大模型'}, {'name': '控制和驾驭模型的系统'}]}",
+      "x": 500,
+      "y": 0,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "1f5810d5",
+      "type": "text",
+      "text": "{'name': 'Agent减去大模型'}",
+      "x": 750,
+      "y": 0,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "13bf2cc9",
+      "type": "text",
+      "text": "{'name': '控制和驾驭模型的系统'}",
+      "x": 750,
+      "y": 80,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "1e8d2a94",
+      "type": "text",
+      "text": "{'name': '演进路径', 'children': [{'name': 'Prompt Engineering (提示词)'}, {'name': 'Context Engineering (上下文)'}, {'name': 'Harness Engineering (系统架构)'}]}",
+      "x": 500,
+      "y": 80,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "3616a6c6",
+      "type": "text",
+      "text": "{'name': 'Prompt Engineering (提示词)'}",
+      "x": 750,
+      "y": 80,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "bf5b8db0",
+      "type": "text",
+      "text": "{'name': 'Context Engineering (上下文)'}",
+      "x": 750,
+      "y": 160,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "4aa891e3",
+      "type": "text",
+      "text": "{'name': 'Harness Engineering (系统架构)'}",
+      "x": 750,
+      "y": 240,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "174386df",
+      "type": "text",
+      "text": "{'name': '核心公式', 'children': [{'name': 'Harness = Agent - Model'}]}",
+      "x": 500,
+      "y": 160,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "53154fd4",
+      "type": "text",
+      "text": "{'name': 'Harness = Agent - Model'}",
+      "x": 750,
+      "y": 160,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "b6462b01",
+      "type": "text",
+      "text": "{'name': 'OpenAI 实战方案', 'children': [{'name': '上下文管理', 'children': [{'name': '压缩agent.md (约100行目录结构)'}, {'name': '单一事实来源 (搬迁决策至代码仓)'}]}, {'name': '验证与反馈', 'children': [{'name': 'Chrome Dev Tools (UI验证)'}, {'name': '可观测性工具栈 (日志与链路)'}, {'name': '分层架构依赖检测 (Lint/测试)'}]}, {'name': '技术债清理', 'children': [{'name': '后台任务自动扫描代码库'}, {'name': '自动修复陈旧文档'}]}]}",
+      "x": 250,
+      "y": 80,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "fc5fc8e4",
+      "type": "text",
+      "text": "{'name': '上下文管理', 'children': [{'name': '压缩agent.md (约100行目录结构)'}, {'name': '单一事实来源 (搬迁决策至代码仓)'}]}",
+      "x": 500,
+      "y": 80,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "496c8642",
+      "type": "text",
+      "text": "{'name': '压缩agent.md (约100行目录结构)'}",
+      "x": 750,
+      "y": 80,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "cabfd6c4",
+      "type": "text",
+      "text": "{'name': '单一事实来源 (搬迁决策至代码仓)'}",
+      "x": 750,
+      "y": 160,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "f8dd21ce",
+      "type": "text",
+      "text": "{'name': '验证与反馈', 'children': [{'name': 'Chrome Dev Tools (UI验证)'}, {'name': '可观测性工具栈 (日志与链路)'}, {'name': '分层架构依赖检测 (Lint/测试)'}]}",
+      "x": 500,
+      "y": 160,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "596bc664",
+      "type": "text",
+      "text": "{'name': 'Chrome Dev Tools (UI验证)'}",
+      "x": 750,
+      "y": 160,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "a9950163",
+      "type": "text",
+      "text": "{'name': '可观测性工具栈 (日志与链路)'}",
+      "x": 750,
+      "y": 240,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "7ec2bfcb",
+      "type": "text",
+      "text": "{'name': '分层架构依赖检测 (Lint/测试)'}",
+      "x": 750,
+      "y": 320,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "9ebbe210",
+      "type": "text",
+      "text": "{'name': '技术债清理', 'children': [{'name': '后台任务自动扫描代码库'}, {'name': '自动修复陈旧文档'}]}",
+      "x": 500,
+      "y": 240,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "e124ccb2",
+      "type": "text",
+      "text": "{'name': '后台任务自动扫描代码库'}",
+      "x": 750,
+      "y": 240,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "fea78a8b",
+      "type": "text",
+      "text": "{'name': '自动修复陈旧文档'}",
+      "x": 750,
+      "y": 320,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "6b505e4a",
+      "type": "text",
+      "text": "{'name': 'Anthropic 实战方案 (F-Harness)', 'children': [{'name': 'Planner (需求拆解与规划)'}, {'name': 'Generator (代码生成)'}, {'name': 'Evaluator (独立第三方质量评估)'}, {'name': '交互标准讨论机制'}]}",
+      "x": 250,
+      "y": 160,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "6fea186b",
+      "type": "text",
+      "text": "{'name': 'Planner (需求拆解与规划)'}",
+      "x": 500,
+      "y": 160,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "912b1a2e",
+      "type": "text",
+      "text": "{'name': 'Generator (代码生成)'}",
+      "x": 500,
+      "y": 240,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "21f930ef",
+      "type": "text",
+      "text": "{'name': 'Evaluator (独立第三方质量评估)'}",
+      "x": 500,
+      "y": 320,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "6c8122da",
+      "type": "text",
+      "text": "{'name': '交互标准讨论机制'}",
+      "x": 500,
+      "y": 400,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "5a40d102",
+      "type": "text",
+      "text": "{'name': '行业争议与本质', 'children': [{'name': '支持者观点', 'children': [{'name': '提供系统工程思维框架'}, {'name': '显著提升稳定性与生产力'}]}, {'name': '质疑者观点', 'children': [{'name': '新瓶装旧酒 (集成现有技术)'}, {'name': '可能被更强的模型能力吸收'}]}]}",
+      "x": 250,
+      "y": 240,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "70003072",
+      "type": "text",
+      "text": "{'name': '支持者观点', 'children': [{'name': '提供系统工程思维框架'}, {'name': '显著提升稳定性与生产力'}]}",
+      "x": 500,
+      "y": 240,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "3c76a987",
+      "type": "text",
+      "text": "{'name': '提供系统工程思维框架'}",
+      "x": 750,
+      "y": 240,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "64152529",
+      "type": "text",
+      "text": "{'name': '显著提升稳定性与生产力'}",
+      "x": 750,
+      "y": 320,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "39df6c4b",
+      "type": "text",
+      "text": "{'name': '质疑者观点', 'children': [{'name': '新瓶装旧酒 (集成现有技术)'}, {'name': '可能被更强的模型能力吸收'}]}",
+      "x": 500,
+      "y": 320,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "5a5ae2ea",
+      "type": "text",
+      "text": "{'name': '新瓶装旧酒 (集成现有技术)'}",
+      "x": 750,
+      "y": 320,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "ecc5a40f",
+      "type": "text",
+      "text": "{'name': '可能被更强的模型能力吸收'}",
+      "x": 750,
+      "y": 400,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "d33c5847",
+      "type": "text",
+      "text": "{'name': '软件工程师新职责', 'children': [{'name': '人类掌舵 (设定方向与规则)'}, {'name': 'Agent执行 (繁琐开发任务)'}, {'name': '搭建可靠的支架系统'}]}",
+      "x": 250,
+      "y": 320,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "81578c34",
+      "type": "text",
+      "text": "{'name': '人类掌舵 (设定方向与规则)'}",
+      "x": 500,
+      "y": 320,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "8b0c6d94",
+      "type": "text",
+      "text": "{'name': 'Agent执行 (繁琐开发任务)'}",
+      "x": 500,
+      "y": 400,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "113337c0",
+      "type": "text",
+      "text": "{'name': '搭建可靠的支架系统'}",
+      "x": 500,
+      "y": 480,
+      "width": 200,
+      "height": 60
+    }
+  ],
+  "edges": [
+    {
+      "id": "57d23057",
+      "fromNode": "a5e33067",
+      "toNode": "721fb08e"
+    },
+    {
+      "id": "3b7e11f5",
+      "fromNode": "721fb08e",
+      "toNode": "61f2e68f"
+    },
+    {
+      "id": "8367709c",
+      "fromNode": "61f2e68f",
+      "toNode": "1f5810d5"
+    },
+    {
+      "id": "eeebb462",
+      "fromNode": "61f2e68f",
+      "toNode": "13bf2cc9"
+    },
+    {
+      "id": "9c1d978c",
+      "fromNode": "721fb08e",
+      "toNode": "1e8d2a94"
+    },
+    {
+      "id": "55936654",
+      "fromNode": "1e8d2a94",
+      "toNode": "3616a6c6"
+    },
+    {
+      "id": "b324ab9b",
+      "fromNode": "1e8d2a94",
+      "toNode": "bf5b8db0"
+    },
+    {
+      "id": "02a98265",
+      "fromNode": "1e8d2a94",
+      "toNode": "4aa891e3"
+    },
+    {
+      "id": "4747d20e",
+      "fromNode": "721fb08e",
+      "toNode": "174386df"
+    },
+    {
+      "id": "60cc5101",
+      "fromNode": "174386df",
+      "toNode": "53154fd4"
+    },
+    {
+      "id": "c53ca994",
+      "fromNode": "a5e33067",
+      "toNode": "b6462b01"
+    },
+    {
+      "id": "bcf8a4f8",
+      "fromNode": "b6462b01",
+      "toNode": "fc5fc8e4"
+    },
+    {
+      "id": "a92c6ff7",
+      "fromNode": "fc5fc8e4",
+      "toNode": "496c8642"
+    },
+    {
+      "id": "b1606c28",
+      "fromNode": "fc5fc8e4",
+      "toNode": "cabfd6c4"
+    },
+    {
+      "id": "c6e07cf9",
+      "fromNode": "b6462b01",
+      "toNode": "f8dd21ce"
+    },
+    {
+      "id": "51111735",
+      "fromNode": "f8dd21ce",
+      "toNode": "596bc664"
+    },
+    {
+      "id": "b5e7aa67",
+      "fromNode": "f8dd21ce",
+      "toNode": "a9950163"
+    },
+    {
+      "id": "f9999016",
+      "fromNode": "f8dd21ce",
+      "toNode": "7ec2bfcb"
+    },
+    {
+      "id": "3f68cc03",
+      "fromNode": "b6462b01",
+      "toNode": "9ebbe210"
+    },
+    {
+      "id": "88412b10",
+      "fromNode": "9ebbe210",
+      "toNode": "e124ccb2"
+    },
+    {
+      "id": "adbad1a7",
+      "fromNode": "9ebbe210",
+      "toNode": "fea78a8b"
+    },
+    {
+      "id": "9666ca5b",
+      "fromNode": "a5e33067",
+      "toNode": "6b505e4a"
+    },
+    {
+      "id": "b9c9d271",
+      "fromNode": "6b505e4a",
+      "toNode": "6fea186b"
+    },
+    {
+      "id": "a2c89d58",
+      "fromNode": "6b505e4a",
+      "toNode": "912b1a2e"
+    },
+    {
+      "id": "a06f3f44",
+      "fromNode": "6b505e4a",
+      "toNode": "21f930ef"
+    },
+    {
+      "id": "693550ac",
+      "fromNode": "6b505e4a",
+      "toNode": "6c8122da"
+    },
+    {
+      "id": "f7128220",
+      "fromNode": "a5e33067",
+      "toNode": "5a40d102"
+    },
+    {
+      "id": "10abd528",
+      "fromNode": "5a40d102",
+      "toNode": "70003072"
+    },
+    {
+      "id": "0befce5d",
+      "fromNode": "70003072",
+      "toNode": "3c76a987"
+    },
+    {
+      "id": "44e4fbbc",
+      "fromNode": "70003072",
+      "toNode": "64152529"
+    },
+    {
+      "id": "44852bdb",
+      "fromNode": "5a40d102",
+      "toNode": "39df6c4b"
+    },
+    {
+      "id": "b9135fbb",
+      "fromNode": "39df6c4b",
+      "toNode": "5a5ae2ea"
+    },
+    {
+      "id": "ea463646",
+      "fromNode": "39df6c4b",
+      "toNode": "ecc5a40f"
+    },
+    {
+      "id": "248fd20d",
+      "fromNode": "a5e33067",
+      "toNode": "d33c5847"
+    },
+    {
+      "id": "46a72a0b",
+      "fromNode": "d33c5847",
+      "toNode": "81578c34"
+    },
+    {
+      "id": "eb78227f",
+      "fromNode": "d33c5847",
+      "toNode": "8b0c6d94"
+    },
+    {
+      "id": "7178bb41",
+      "fromNode": "d33c5847",
+      "toNode": "113337c0"
+    }
+  ]
+}
