@@ -25,18 +25,6 @@ pipeline:
         report_prompt: "请深度研究这个视频，提炼技术架构、核心观点、关键论据，以及对行业的影响。生成结构化中文研究报告。"
         mindmap_prompt: "基于视频内容生成清晰的中文思维导图，突出核心概念之间的关系与层级。"
 
-  - stage: wiki-build
-    trigger: raw/notebooklm-analysis/**
-    webhook_route: sop-wiki-build
-    params:
-      build_mode: incremental
-
-  - stage: tg-notify
-    trigger: index.md
-    webhook_route: sop-tg-notify
-    params:
-      build_mode: notify
-
   - stage: retry
     trigger: raw/retry/**
     webhook_route: sop-retry

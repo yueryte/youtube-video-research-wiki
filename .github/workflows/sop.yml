@@ -6,7 +6,6 @@ on:
     paths:
       - 'raw/youtube-links/**'
       - 'raw/notebooklm-analysis/**'
-      - 'raw/notebooklm-mindmaps/**'
       - 'index.md'
 
 concurrency:
@@ -20,11 +19,66 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 2
+          token: ${{ secrets.WIKI_GITHUB_PAT }}
 
       - name: Install pyyaml
         run: pip install pyyaml --quiet
 
-      - name: Run SOP Router
+      - name: Detect stage
+        id: detect
+        env:
+          BEFORE_SHA: ${{ github.event.before }}
+          AFTER_SHA: ${{ github.sha }}
+        run: |
+          python3 - <<'PYEOF'
+          import os, subprocess, sys
+
+          before = os.environ.get("BEFORE_SHA", "")
+          after  = os.environ.get("AFTER_SHA", "HEAD")
+
+          def get_changed():
+              r = subprocess.run(
+                  ["git", "-c", "core.quotepath=false", "diff", "--name-only",
+                   "--diff-filter=AM", f"{before}..{after}"],
+                  capture_output=True, text=True
+              )
+              files = [f.strip() for f in r.stdout.splitlines() if f.strip()]
+              if not files:
+                  r2 = subprocess.run(
+                      ["git", "-c", "core.quotepath=false", "diff", "--name-only",
+                       "--diff-filter=AM", "HEAD~1..HEAD"],
+                      capture_output=True, text=True
+                  )
+                  files = [f.strip() for f in r2.stdout.splitlines() if f.strip()]
+              return files
+
+          files = get_changed()
+          print(f"Changed: {files}", file=sys.stderr)
+
+          stage = "none"
+          if any(f.startswith("raw/youtube-links/") for f in files):
+              stage = "B"
+          elif any(f.startswith("raw/notebooklm-analysis/") for f in files):
+              stage = "C"
+          elif "index.md" in files:
+              # Guard: only fire Stage D when Stage C committed (message contains "wiki graph")
+              msg = subprocess.run(
+                  ["git", "log", "-1", "--format=%s"],
+                  capture_output=True, text=True
+              ).stdout.strip()
+              if "wiki graph" in msg.lower():
+                  stage = "D"
+              else:
+                  print(f"Stage D guard: '{msg}' is not a Stage C commit, skipping.", file=sys.stderr)
+
+          with open(os.environ["GITHUB_OUTPUT"], "a") as fh:
+              fh.write(f"stage={stage}\n")
+          print(f"Stage: {stage}")
+          PYEOF
+
+      # ── Stage B: NotebookLM research (still via hermes) ──
+      - name: Stage B - Route to Hermes (NotebookLM)
+        if: steps.detect.outputs.stage == 'B'
         env:
           HERMES_WEBHOOK_BASE: https://hermes-webhooks-212.vyibc.com/webhooks
           HERMES_SOP_SECRET: ${{ vars.HERMES_WEBHOOK_TOKEN != '' && vars.HERMES_WEBHOOK_TOKEN || secrets.HERMES_WEBHOOK_TOKEN }}
@@ -33,3 +87,27 @@ jobs:
           RUN_ID: gh-${{ github.run_id }}-${{ github.run_attempt }}
           REPO: ${{ github.repository }}
         run: python3 .github/scripts/sop_router.py
+
+      # ── Stage C: Wiki build (direct, no hermes agent) ──
+      - name: Stage C - Wiki Build
+        if: steps.detect.outputs.stage == 'C'
+        env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+        run: |
+          python3 .github/scripts/sop_wiki_builder.py \
+            --wiki-path . \
+            --run-id gh-${{ github.run_id }}-${{ github.run_attempt }} \
+            --before-sha ${{ github.event.before }} \
+            --sha ${{ github.sha }}
+
+      # ── Stage D: TG notify (direct, no hermes agent) ──
+      - name: Stage D - TG Notify
+        if: steps.detect.outputs.stage == 'D'
+        env:
+          YOUTUBE_WIKI_TG_TOKEN: ${{ secrets.YOUTUBE_WIKI_TG_TOKEN }}
+        run: |
+          python3 .github/scripts/sop_tg_notify.py \
+            --wiki-path . \
+            --run-id gh-${{ github.run_id }}-${{ github.run_attempt }} \
+            --tg-chat-id ${{ secrets.YOUTUBE_WIKI_TG_CHAT_ID }} \
+            --repo-url https://github.com/${{ github.repository }}
