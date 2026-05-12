@@ -1,0 +1,561 @@
+{
+  "nodes": [
+    {
+      "id": "bf0e5e4d",
+      "type": "text",
+      "text": "{'name': 'Harness Engineering', 'children': [{'name': '基本概念', 'children': [{'name': '定义', 'children': [{'name': 'Harness = Agent - Model'}, {'name': '控制与驾驭大模型的系统'}]}, {'name': '演进关系', 'children': [{'name': 'Prompt Engineering: 研究怎么问'}, {'name': 'Context Engineering: 研究怎么给信息'}, {'name': 'Harness Engineering: 研究如何搭系统'}]}, {'name': '核心理念', 'children': [{'name': 'Human Steer, Agents Execute'}, {'name': '软件工程师转变为系统搭建者'}]}]}, {'name': 'OpenAI 实战案例', 'children': [{'name': '上下文管理', 'children': [{'name': '压缩 agent.md 至百行以内'}, {'name': '建立分层文档系统'}, {'name': '将代码仓作为唯一事实来源'}]}, {'name': '验证与反馈', 'children': [{'name': '接入 Chrome DevTools 验证 UI'}, {'name': '全栈可观测性工具链'}, {'name': '自动化 Lint 与测试闭环'}]}, {'name': '技术债清理', 'children': [{'name': '后台任务定期扫描代码规范'}, {'name': '自动维护与更新过时文档'}]}]}, {'name': 'Anthropic 架构设计', 'children': [{'name': '多 Agent 协作 (F-Harness)', 'children': [{'name': 'Planner: 拆解用户需求为功能列表'}, {'name': 'Generator: 执行编码任务'}, {'name': 'Evaluator: 独立第三方质量评估'}]}, {'name': '协作流程', 'children': [{'name': '确认交付标准'}, {'name': '循环修改直至通过评估'}]}]}, {'name': '行业争议与未来', 'children': [{'name': '主要争议', 'children': [{'name': '新瓶装旧酒: 整合了既有技术'}, {'name': '炒作嫌疑: 术语组合的新词'}]}, {'name': '未来趋势', 'children': [{'name': '模型越强，所需 Harness 越少'}, {'name': '可能退化为基础环境接口'}, {'name': '当前转化为生产力的最现实方案'}]}]}]}",
+      "x": 0,
+      "y": 0,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "1de4c473",
+      "type": "text",
+      "text": "{'name': '基本概念', 'children': [{'name': '定义', 'children': [{'name': 'Harness = Agent - Model'}, {'name': '控制与驾驭大模型的系统'}]}, {'name': '演进关系', 'children': [{'name': 'Prompt Engineering: 研究怎么问'}, {'name': 'Context Engineering: 研究怎么给信息'}, {'name': 'Harness Engineering: 研究如何搭系统'}]}, {'name': '核心理念', 'children': [{'name': 'Human Steer, Agents Execute'}, {'name': '软件工程师转变为系统搭建者'}]}]}",
+      "x": 250,
+      "y": 0,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "27b32240",
+      "type": "text",
+      "text": "{'name': '定义', 'children': [{'name': 'Harness = Agent - Model'}, {'name': '控制与驾驭大模型的系统'}]}",
+      "x": 500,
+      "y": 0,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "646326c1",
+      "type": "text",
+      "text": "{'name': 'Harness = Agent - Model'}",
+      "x": 750,
+      "y": 0,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "75bab6b9",
+      "type": "text",
+      "text": "{'name': '控制与驾驭大模型的系统'}",
+      "x": 750,
+      "y": 80,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "b52e9ba4",
+      "type": "text",
+      "text": "{'name': '演进关系', 'children': [{'name': 'Prompt Engineering: 研究怎么问'}, {'name': 'Context Engineering: 研究怎么给信息'}, {'name': 'Harness Engineering: 研究如何搭系统'}]}",
+      "x": 500,
+      "y": 80,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "0659e871",
+      "type": "text",
+      "text": "{'name': 'Prompt Engineering: 研究怎么问'}",
+      "x": 750,
+      "y": 80,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "d8dd53d8",
+      "type": "text",
+      "text": "{'name': 'Context Engineering: 研究怎么给信息'}",
+      "x": 750,
+      "y": 160,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "d9faebea",
+      "type": "text",
+      "text": "{'name': 'Harness Engineering: 研究如何搭系统'}",
+      "x": 750,
+      "y": 240,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "61feeb8d",
+      "type": "text",
+      "text": "{'name': '核心理念', 'children': [{'name': 'Human Steer, Agents Execute'}, {'name': '软件工程师转变为系统搭建者'}]}",
+      "x": 500,
+      "y": 160,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "c4bcbf16",
+      "type": "text",
+      "text": "{'name': 'Human Steer, Agents Execute'}",
+      "x": 750,
+      "y": 160,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "3500cb8a",
+      "type": "text",
+      "text": "{'name': '软件工程师转变为系统搭建者'}",
+      "x": 750,
+      "y": 240,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "a67e27d5",
+      "type": "text",
+      "text": "{'name': 'OpenAI 实战案例', 'children': [{'name': '上下文管理', 'children': [{'name': '压缩 agent.md 至百行以内'}, {'name': '建立分层文档系统'}, {'name': '将代码仓作为唯一事实来源'}]}, {'name': '验证与反馈', 'children': [{'name': '接入 Chrome DevTools 验证 UI'}, {'name': '全栈可观测性工具链'}, {'name': '自动化 Lint 与测试闭环'}]}, {'name': '技术债清理', 'children': [{'name': '后台任务定期扫描代码规范'}, {'name': '自动维护与更新过时文档'}]}]}",
+      "x": 250,
+      "y": 80,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "4b7bff63",
+      "type": "text",
+      "text": "{'name': '上下文管理', 'children': [{'name': '压缩 agent.md 至百行以内'}, {'name': '建立分层文档系统'}, {'name': '将代码仓作为唯一事实来源'}]}",
+      "x": 500,
+      "y": 80,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "4032bf56",
+      "type": "text",
+      "text": "{'name': '压缩 agent.md 至百行以内'}",
+      "x": 750,
+      "y": 80,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "66107216",
+      "type": "text",
+      "text": "{'name': '建立分层文档系统'}",
+      "x": 750,
+      "y": 160,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "22f820b6",
+      "type": "text",
+      "text": "{'name': '将代码仓作为唯一事实来源'}",
+      "x": 750,
+      "y": 240,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "de9b6b91",
+      "type": "text",
+      "text": "{'name': '验证与反馈', 'children': [{'name': '接入 Chrome DevTools 验证 UI'}, {'name': '全栈可观测性工具链'}, {'name': '自动化 Lint 与测试闭环'}]}",
+      "x": 500,
+      "y": 160,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "c6066c37",
+      "type": "text",
+      "text": "{'name': '接入 Chrome DevTools 验证 UI'}",
+      "x": 750,
+      "y": 160,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "5509c970",
+      "type": "text",
+      "text": "{'name': '全栈可观测性工具链'}",
+      "x": 750,
+      "y": 240,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "eda40b48",
+      "type": "text",
+      "text": "{'name': '自动化 Lint 与测试闭环'}",
+      "x": 750,
+      "y": 320,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "766bb583",
+      "type": "text",
+      "text": "{'name': '技术债清理', 'children': [{'name': '后台任务定期扫描代码规范'}, {'name': '自动维护与更新过时文档'}]}",
+      "x": 500,
+      "y": 240,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "88d76402",
+      "type": "text",
+      "text": "{'name': '后台任务定期扫描代码规范'}",
+      "x": 750,
+      "y": 240,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "05fc9efd",
+      "type": "text",
+      "text": "{'name': '自动维护与更新过时文档'}",
+      "x": 750,
+      "y": 320,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "477581bf",
+      "type": "text",
+      "text": "{'name': 'Anthropic 架构设计', 'children': [{'name': '多 Agent 协作 (F-Harness)', 'children': [{'name': 'Planner: 拆解用户需求为功能列表'}, {'name': 'Generator: 执行编码任务'}, {'name': 'Evaluator: 独立第三方质量评估'}]}, {'name': '协作流程', 'children': [{'name': '确认交付标准'}, {'name': '循环修改直至通过评估'}]}]}",
+      "x": 250,
+      "y": 160,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "3e83a0a3",
+      "type": "text",
+      "text": "{'name': '多 Agent 协作 (F-Harness)', 'children': [{'name': 'Planner: 拆解用户需求为功能列表'}, {'name': 'Generator: 执行编码任务'}, {'name': 'Evaluator: 独立第三方质量评估'}]}",
+      "x": 500,
+      "y": 160,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "11d9a0a3",
+      "type": "text",
+      "text": "{'name': 'Planner: 拆解用户需求为功能列表'}",
+      "x": 750,
+      "y": 160,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "c7065f1e",
+      "type": "text",
+      "text": "{'name': 'Generator: 执行编码任务'}",
+      "x": 750,
+      "y": 240,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "4b7eb744",
+      "type": "text",
+      "text": "{'name': 'Evaluator: 独立第三方质量评估'}",
+      "x": 750,
+      "y": 320,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "e2052104",
+      "type": "text",
+      "text": "{'name': '协作流程', 'children': [{'name': '确认交付标准'}, {'name': '循环修改直至通过评估'}]}",
+      "x": 500,
+      "y": 240,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "89cc1aac",
+      "type": "text",
+      "text": "{'name': '确认交付标准'}",
+      "x": 750,
+      "y": 240,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "aaf67d18",
+      "type": "text",
+      "text": "{'name': '循环修改直至通过评估'}",
+      "x": 750,
+      "y": 320,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "e79cffb4",
+      "type": "text",
+      "text": "{'name': '行业争议与未来', 'children': [{'name': '主要争议', 'children': [{'name': '新瓶装旧酒: 整合了既有技术'}, {'name': '炒作嫌疑: 术语组合的新词'}]}, {'name': '未来趋势', 'children': [{'name': '模型越强，所需 Harness 越少'}, {'name': '可能退化为基础环境接口'}, {'name': '当前转化为生产力的最现实方案'}]}]}",
+      "x": 250,
+      "y": 240,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "f5289982",
+      "type": "text",
+      "text": "{'name': '主要争议', 'children': [{'name': '新瓶装旧酒: 整合了既有技术'}, {'name': '炒作嫌疑: 术语组合的新词'}]}",
+      "x": 500,
+      "y": 240,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "923c3225",
+      "type": "text",
+      "text": "{'name': '新瓶装旧酒: 整合了既有技术'}",
+      "x": 750,
+      "y": 240,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "14ff8892",
+      "type": "text",
+      "text": "{'name': '炒作嫌疑: 术语组合的新词'}",
+      "x": 750,
+      "y": 320,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "eda13e1b",
+      "type": "text",
+      "text": "{'name': '未来趋势', 'children': [{'name': '模型越强，所需 Harness 越少'}, {'name': '可能退化为基础环境接口'}, {'name': '当前转化为生产力的最现实方案'}]}",
+      "x": 500,
+      "y": 320,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "15b44aca",
+      "type": "text",
+      "text": "{'name': '模型越强，所需 Harness 越少'}",
+      "x": 750,
+      "y": 320,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "03d6bfd9",
+      "type": "text",
+      "text": "{'name': '可能退化为基础环境接口'}",
+      "x": 750,
+      "y": 400,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "2e4f8e20",
+      "type": "text",
+      "text": "{'name': '当前转化为生产力的最现实方案'}",
+      "x": 750,
+      "y": 480,
+      "width": 200,
+      "height": 60
+    }
+  ],
+  "edges": [
+    {
+      "id": "7910e408",
+      "fromNode": "bf0e5e4d",
+      "toNode": "1de4c473"
+    },
+    {
+      "id": "e67ec1a0",
+      "fromNode": "1de4c473",
+      "toNode": "27b32240"
+    },
+    {
+      "id": "70752340",
+      "fromNode": "27b32240",
+      "toNode": "646326c1"
+    },
+    {
+      "id": "a0feecaf",
+      "fromNode": "27b32240",
+      "toNode": "75bab6b9"
+    },
+    {
+      "id": "3c24c197",
+      "fromNode": "1de4c473",
+      "toNode": "b52e9ba4"
+    },
+    {
+      "id": "d210716d",
+      "fromNode": "b52e9ba4",
+      "toNode": "0659e871"
+    },
+    {
+      "id": "e07bdc07",
+      "fromNode": "b52e9ba4",
+      "toNode": "d8dd53d8"
+    },
+    {
+      "id": "25d0e9f0",
+      "fromNode": "b52e9ba4",
+      "toNode": "d9faebea"
+    },
+    {
+      "id": "e03b1bc0",
+      "fromNode": "1de4c473",
+      "toNode": "61feeb8d"
+    },
+    {
+      "id": "4d3207f8",
+      "fromNode": "61feeb8d",
+      "toNode": "c4bcbf16"
+    },
+    {
+      "id": "900a0ae9",
+      "fromNode": "61feeb8d",
+      "toNode": "3500cb8a"
+    },
+    {
+      "id": "a93d96b3",
+      "fromNode": "bf0e5e4d",
+      "toNode": "a67e27d5"
+    },
+    {
+      "id": "d816bfcf",
+      "fromNode": "a67e27d5",
+      "toNode": "4b7bff63"
+    },
+    {
+      "id": "8ccc66bb",
+      "fromNode": "4b7bff63",
+      "toNode": "4032bf56"
+    },
+    {
+      "id": "8695a6a4",
+      "fromNode": "4b7bff63",
+      "toNode": "66107216"
+    },
+    {
+      "id": "75dae779",
+      "fromNode": "4b7bff63",
+      "toNode": "22f820b6"
+    },
+    {
+      "id": "ce85417b",
+      "fromNode": "a67e27d5",
+      "toNode": "de9b6b91"
+    },
+    {
+      "id": "e86521f9",
+      "fromNode": "de9b6b91",
+      "toNode": "c6066c37"
+    },
+    {
+      "id": "7bff99ae",
+      "fromNode": "de9b6b91",
+      "toNode": "5509c970"
+    },
+    {
+      "id": "9028b041",
+      "fromNode": "de9b6b91",
+      "toNode": "eda40b48"
+    },
+    {
+      "id": "9c7a8d85",
+      "fromNode": "a67e27d5",
+      "toNode": "766bb583"
+    },
+    {
+      "id": "30092db0",
+      "fromNode": "766bb583",
+      "toNode": "88d76402"
+    },
+    {
+      "id": "fc9e6db2",
+      "fromNode": "766bb583",
+      "toNode": "05fc9efd"
+    },
+    {
+      "id": "f684bdc9",
+      "fromNode": "bf0e5e4d",
+      "toNode": "477581bf"
+    },
+    {
+      "id": "11682de6",
+      "fromNode": "477581bf",
+      "toNode": "3e83a0a3"
+    },
+    {
+      "id": "6de0e603",
+      "fromNode": "3e83a0a3",
+      "toNode": "11d9a0a3"
+    },
+    {
+      "id": "75924208",
+      "fromNode": "3e83a0a3",
+      "toNode": "c7065f1e"
+    },
+    {
+      "id": "426c79f0",
+      "fromNode": "3e83a0a3",
+      "toNode": "4b7eb744"
+    },
+    {
+      "id": "f5014ae8",
+      "fromNode": "477581bf",
+      "toNode": "e2052104"
+    },
+    {
+      "id": "c93c954b",
+      "fromNode": "e2052104",
+      "toNode": "89cc1aac"
+    },
+    {
+      "id": "ddb12763",
+      "fromNode": "e2052104",
+      "toNode": "aaf67d18"
+    },
+    {
+      "id": "089296a8",
+      "fromNode": "bf0e5e4d",
+      "toNode": "e79cffb4"
+    },
+    {
+      "id": "37cc6c88",
+      "fromNode": "e79cffb4",
+      "toNode": "f5289982"
+    },
+    {
+      "id": "fbbe038e",
+      "fromNode": "f5289982",
+      "toNode": "923c3225"
+    },
+    {
+      "id": "6c0c3236",
+      "fromNode": "f5289982",
+      "toNode": "14ff8892"
+    },
+    {
+      "id": "565840d6",
+      "fromNode": "e79cffb4",
+      "toNode": "eda13e1b"
+    },
+    {
+      "id": "8c08a5ec",
+      "fromNode": "eda13e1b",
+      "toNode": "15b44aca"
+    },
+    {
+      "id": "d6cd8a97",
+      "fromNode": "eda13e1b",
+      "toNode": "03d6bfd9"
+    },
+    {
+      "id": "7ee6bd46",
+      "fromNode": "eda13e1b",
+      "toNode": "2e4f8e20"
+    }
+  ]
+}

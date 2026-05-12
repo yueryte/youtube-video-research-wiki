@@ -1,0 +1,18 @@
+{
+  "stage_b": {
+    "run_id": "gh-25717172207-1",
+    "start_time": "2026-05-12T06:19:10Z",
+    "end_time": "2026-05-12T06:19:50Z",
+    "duration_s": 40,
+    "processed_urls": [
+      "https://youtu.be/7nCzfgDjSo8?si=_6gQP8MD3bpAzBq8"
+    ],
+    "video_ids": [
+      "7nCzfgDjSo8"
+    ],
+    "youtube_urls": [
+      "https://youtu.be/7nCzfgDjSo8?si=_6gQP8MD3bpAzBq8"
+    ],
+    "status": "success"
+  }
+}
