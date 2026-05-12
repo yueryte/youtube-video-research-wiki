@@ -1,1 +1,26 @@
-{"pipeline_id": "pipe-c994239", "stage_b": {"run_id": "gh-25711447450-1", "start_time": "2026-05-12T03:26:40Z", "end_time": "2026-05-12T03:28:29Z", "duration_s": 109, "videos_processed": 1, "reports_generated": 1, "mindmaps_generated": 1}}
+{
+  "pipeline_id": "pipe-c994239",
+  "stage_b": {
+    "run_id": "gh-25711447450-1",
+    "start_time": "2026-05-12T03:26:40Z",
+    "end_time": "2026-05-12T03:28:29Z",
+    "duration_s": 109,
+    "videos_processed": 1,
+    "reports_generated": 1,
+    "mindmaps_generated": 1
+  },
+  "stage_c": {
+    "run_id": "gh-25711528869-1",
+    "task_id": "T-25711528869",
+    "start_time": "2026-05-12T03:29:04Z",
+    "end_time": "2026-05-12T03:29:55Z",
+    "duration_s": 51,
+    "api_calls": 11,
+    "pages_created": 10,
+    "sources": 1,
+    "entities": 0,
+    "concepts": 5,
+    "comparisons": 2,
+    "overviews": 0
+  }
+}
