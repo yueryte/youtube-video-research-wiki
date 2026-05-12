@@ -1,0 +1,421 @@
+{
+  "nodes": [
+    {
+      "id": "5891d6e3",
+      "type": "text",
+      "text": "{'name': '多Agent协作架构（Managed Agents）', 'children': [{'name': '核心理念：解耦', 'children': [{'name': '大脑与双手分离', 'children': [{'name': '大脑：规划决策能力'}, {'name': '双手：执行代码的沙盒环境'}]}, {'name': '从宠物到牛马', 'children': [{'name': '宠物：环境绑定，易崩溃'}, {'name': '牛马：无状态，随时销毁重建'}]}]}, {'name': '四层解耦架构', 'children': [{'name': '第一层：Agent（静态模板，定义工具/提示词）'}, {'name': '第二层：Session（动态实体，独立对话/记忆挂载）'}, {'name': '第三层：协调者（Coordinator，任务拆解与派活）'}, {'name': '第四层：Session Store（云端记忆，实现Fork/回滚/克隆）'}]}, {'name': 'Anthropic SDK 线索', 'children': [{'name': 'Beta 目录模块：Agents, Environments, Sessions等'}, {'name': 'Coordinator 字段：管理最多20个Agent'}, {'name': '云端缓存：从Redis恢复上下文'}]}, {'name': '本地复刻实践', 'children': [{'name': '技术栈', 'children': [{'name': 'Docker 容器（Worker 节点）'}, {'name': '任务图编排（预定义交互规则）'}, {'name': 'Cube Sandbox（毫秒级启动沙盒）'}]}, {'name': '核心优势', 'children': [{'name': '多模型组合：提升 Token 效率'}, {'name': '高并发：异步协作完成长程任务'}, {'name': '动态调度：按需创建/销毁计算资源'}]}]}, {'name': '行业趋势与思考', 'children': [{'name': 'Agent 云端操作系统化'}, {'name': '从个人工具转向企业基础设施'}, {'name': '国内外维度差异：Token生意 vs AGI落地理解'}]}]}",
+      "x": 0,
+      "y": 0,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "1d7b0736",
+      "type": "text",
+      "text": "{'name': '核心理念：解耦', 'children': [{'name': '大脑与双手分离', 'children': [{'name': '大脑：规划决策能力'}, {'name': '双手：执行代码的沙盒环境'}]}, {'name': '从宠物到牛马', 'children': [{'name': '宠物：环境绑定，易崩溃'}, {'name': '牛马：无状态，随时销毁重建'}]}]}",
+      "x": 250,
+      "y": 0,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "64eb901f",
+      "type": "text",
+      "text": "{'name': '大脑与双手分离', 'children': [{'name': '大脑：规划决策能力'}, {'name': '双手：执行代码的沙盒环境'}]}",
+      "x": 500,
+      "y": 0,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "21b5115b",
+      "type": "text",
+      "text": "{'name': '大脑：规划决策能力'}",
+      "x": 750,
+      "y": 0,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "cf478e7b",
+      "type": "text",
+      "text": "{'name': '双手：执行代码的沙盒环境'}",
+      "x": 750,
+      "y": 80,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "5b45008a",
+      "type": "text",
+      "text": "{'name': '从宠物到牛马', 'children': [{'name': '宠物：环境绑定，易崩溃'}, {'name': '牛马：无状态，随时销毁重建'}]}",
+      "x": 500,
+      "y": 80,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "6e450d67",
+      "type": "text",
+      "text": "{'name': '宠物：环境绑定，易崩溃'}",
+      "x": 750,
+      "y": 80,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "8e4b943f",
+      "type": "text",
+      "text": "{'name': '牛马：无状态，随时销毁重建'}",
+      "x": 750,
+      "y": 160,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "e3a9ee6c",
+      "type": "text",
+      "text": "{'name': '四层解耦架构', 'children': [{'name': '第一层：Agent（静态模板，定义工具/提示词）'}, {'name': '第二层：Session（动态实体，独立对话/记忆挂载）'}, {'name': '第三层：协调者（Coordinator，任务拆解与派活）'}, {'name': '第四层：Session Store（云端记忆，实现Fork/回滚/克隆）'}]}",
+      "x": 250,
+      "y": 80,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "c576ba70",
+      "type": "text",
+      "text": "{'name': '第一层：Agent（静态模板，定义工具/提示词）'}",
+      "x": 500,
+      "y": 80,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "d46c7918",
+      "type": "text",
+      "text": "{'name': '第二层：Session（动态实体，独立对话/记忆挂载）'}",
+      "x": 500,
+      "y": 160,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "2deaba3f",
+      "type": "text",
+      "text": "{'name': '第三层：协调者（Coordinator，任务拆解与派活）'}",
+      "x": 500,
+      "y": 240,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "2560ca2c",
+      "type": "text",
+      "text": "{'name': '第四层：Session Store（云端记忆，实现Fork/回滚/克隆）'}",
+      "x": 500,
+      "y": 320,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "6e4a2e3c",
+      "type": "text",
+      "text": "{'name': 'Anthropic SDK 线索', 'children': [{'name': 'Beta 目录模块：Agents, Environments, Sessions等'}, {'name': 'Coordinator 字段：管理最多20个Agent'}, {'name': '云端缓存：从Redis恢复上下文'}]}",
+      "x": 250,
+      "y": 160,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "76282371",
+      "type": "text",
+      "text": "{'name': 'Beta 目录模块：Agents, Environments, Sessions等'}",
+      "x": 500,
+      "y": 160,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "cb50b956",
+      "type": "text",
+      "text": "{'name': 'Coordinator 字段：管理最多20个Agent'}",
+      "x": 500,
+      "y": 240,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "e7b8f883",
+      "type": "text",
+      "text": "{'name': '云端缓存：从Redis恢复上下文'}",
+      "x": 500,
+      "y": 320,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "cbac9fdd",
+      "type": "text",
+      "text": "{'name': '本地复刻实践', 'children': [{'name': '技术栈', 'children': [{'name': 'Docker 容器（Worker 节点）'}, {'name': '任务图编排（预定义交互规则）'}, {'name': 'Cube Sandbox（毫秒级启动沙盒）'}]}, {'name': '核心优势', 'children': [{'name': '多模型组合：提升 Token 效率'}, {'name': '高并发：异步协作完成长程任务'}, {'name': '动态调度：按需创建/销毁计算资源'}]}]}",
+      "x": 250,
+      "y": 240,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "5525bb60",
+      "type": "text",
+      "text": "{'name': '技术栈', 'children': [{'name': 'Docker 容器（Worker 节点）'}, {'name': '任务图编排（预定义交互规则）'}, {'name': 'Cube Sandbox（毫秒级启动沙盒）'}]}",
+      "x": 500,
+      "y": 240,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "db905510",
+      "type": "text",
+      "text": "{'name': 'Docker 容器（Worker 节点）'}",
+      "x": 750,
+      "y": 240,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "2f71dfe6",
+      "type": "text",
+      "text": "{'name': '任务图编排（预定义交互规则）'}",
+      "x": 750,
+      "y": 320,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "be0e796a",
+      "type": "text",
+      "text": "{'name': 'Cube Sandbox（毫秒级启动沙盒）'}",
+      "x": 750,
+      "y": 400,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "eedc3565",
+      "type": "text",
+      "text": "{'name': '核心优势', 'children': [{'name': '多模型组合：提升 Token 效率'}, {'name': '高并发：异步协作完成长程任务'}, {'name': '动态调度：按需创建/销毁计算资源'}]}",
+      "x": 500,
+      "y": 320,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "ee73d22b",
+      "type": "text",
+      "text": "{'name': '多模型组合：提升 Token 效率'}",
+      "x": 750,
+      "y": 320,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "00a40d43",
+      "type": "text",
+      "text": "{'name': '高并发：异步协作完成长程任务'}",
+      "x": 750,
+      "y": 400,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "84da221f",
+      "type": "text",
+      "text": "{'name': '动态调度：按需创建/销毁计算资源'}",
+      "x": 750,
+      "y": 480,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "d918c449",
+      "type": "text",
+      "text": "{'name': '行业趋势与思考', 'children': [{'name': 'Agent 云端操作系统化'}, {'name': '从个人工具转向企业基础设施'}, {'name': '国内外维度差异：Token生意 vs AGI落地理解'}]}",
+      "x": 250,
+      "y": 320,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "254f8a18",
+      "type": "text",
+      "text": "{'name': 'Agent 云端操作系统化'}",
+      "x": 500,
+      "y": 320,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "d26d8fcc",
+      "type": "text",
+      "text": "{'name': '从个人工具转向企业基础设施'}",
+      "x": 500,
+      "y": 400,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "7b9476d2",
+      "type": "text",
+      "text": "{'name': '国内外维度差异：Token生意 vs AGI落地理解'}",
+      "x": 500,
+      "y": 480,
+      "width": 200,
+      "height": 60
+    }
+  ],
+  "edges": [
+    {
+      "id": "1d747834",
+      "fromNode": "5891d6e3",
+      "toNode": "1d7b0736"
+    },
+    {
+      "id": "406ac100",
+      "fromNode": "1d7b0736",
+      "toNode": "64eb901f"
+    },
+    {
+      "id": "a82b0107",
+      "fromNode": "64eb901f",
+      "toNode": "21b5115b"
+    },
+    {
+      "id": "3928e27e",
+      "fromNode": "64eb901f",
+      "toNode": "cf478e7b"
+    },
+    {
+      "id": "e86baa47",
+      "fromNode": "1d7b0736",
+      "toNode": "5b45008a"
+    },
+    {
+      "id": "2486b096",
+      "fromNode": "5b45008a",
+      "toNode": "6e450d67"
+    },
+    {
+      "id": "39ae31f0",
+      "fromNode": "5b45008a",
+      "toNode": "8e4b943f"
+    },
+    {
+      "id": "d1b3243b",
+      "fromNode": "5891d6e3",
+      "toNode": "e3a9ee6c"
+    },
+    {
+      "id": "75592cd7",
+      "fromNode": "e3a9ee6c",
+      "toNode": "c576ba70"
+    },
+    {
+      "id": "de7fbfdb",
+      "fromNode": "e3a9ee6c",
+      "toNode": "d46c7918"
+    },
+    {
+      "id": "1bc413e9",
+      "fromNode": "e3a9ee6c",
+      "toNode": "2deaba3f"
+    },
+    {
+      "id": "d52ced63",
+      "fromNode": "e3a9ee6c",
+      "toNode": "2560ca2c"
+    },
+    {
+      "id": "e735b7f9",
+      "fromNode": "5891d6e3",
+      "toNode": "6e4a2e3c"
+    },
+    {
+      "id": "2de70ccb",
+      "fromNode": "6e4a2e3c",
+      "toNode": "76282371"
+    },
+    {
+      "id": "2d0d9c0e",
+      "fromNode": "6e4a2e3c",
+      "toNode": "cb50b956"
+    },
+    {
+      "id": "79231840",
+      "fromNode": "6e4a2e3c",
+      "toNode": "e7b8f883"
+    },
+    {
+      "id": "360bda5d",
+      "fromNode": "5891d6e3",
+      "toNode": "cbac9fdd"
+    },
+    {
+      "id": "51384504",
+      "fromNode": "cbac9fdd",
+      "toNode": "5525bb60"
+    },
+    {
+      "id": "3718f473",
+      "fromNode": "5525bb60",
+      "toNode": "db905510"
+    },
+    {
+      "id": "0332706f",
+      "fromNode": "5525bb60",
+      "toNode": "2f71dfe6"
+    },
+    {
+      "id": "d80a2db2",
+      "fromNode": "5525bb60",
+      "toNode": "be0e796a"
+    },
+    {
+      "id": "bef7b228",
+      "fromNode": "cbac9fdd",
+      "toNode": "eedc3565"
+    },
+    {
+      "id": "4a619a1c",
+      "fromNode": "eedc3565",
+      "toNode": "ee73d22b"
+    },
+    {
+      "id": "232d11ac",
+      "fromNode": "eedc3565",
+      "toNode": "00a40d43"
+    },
+    {
+      "id": "5a7af69c",
+      "fromNode": "eedc3565",
+      "toNode": "84da221f"
+    },
+    {
+      "id": "53dc3912",
+      "fromNode": "5891d6e3",
+      "toNode": "d918c449"
+    },
+    {
+      "id": "657a5c37",
+      "fromNode": "d918c449",
+      "toNode": "254f8a18"
+    },
+    {
+      "id": "f6d72e1f",
+      "fromNode": "d918c449",
+      "toNode": "d26d8fcc"
+    },
+    {
+      "id": "10eed630",
+      "fromNode": "d918c449",
+      "toNode": "7b9476d2"
+    }
+  ]
+}
