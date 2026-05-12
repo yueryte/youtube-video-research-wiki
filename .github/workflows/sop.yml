@@ -26,7 +26,7 @@ jobs:
 
       - name: Run SOP Router
         env:
-          HERMES_WEBHOOK_BASE: https://hermes-webhooks.vyibc.com/webhooks
+          HERMES_WEBHOOK_BASE: https://hermes-webhooks-212.vyibc.com/webhooks
           HERMES_SOP_SECRET: ${{ vars.HERMES_WEBHOOK_TOKEN != '' && vars.HERMES_WEBHOOK_TOKEN || secrets.HERMES_WEBHOOK_TOKEN }}
           BEFORE_SHA: ${{ github.event.before }}
           AFTER_SHA: ${{ github.sha }}
