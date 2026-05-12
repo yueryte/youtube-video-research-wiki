@@ -1,0 +1,477 @@
+{
+  "nodes": [
+    {
+      "id": "aa636d7a",
+      "type": "text",
+      "text": "{'name': 'Agent 全自动视频制作 (Harness 实践)', 'children': [{'name': '核心理念与优势', 'children': [{'name': '可控性：网页 coding 优于视频模型抽卡'}, {'name': '稳定性：Harness 架构驾驭模型能力'}, {'name': '成本低：支持本地与国产模型搭配'}, {'name': 'Skill 机制：Agent 操作手册与规则约束'}]}, {'name': 'Skill 核心六要素', 'children': [{'name': '执行与编排：定义四阶段流程'}, {'name': '上下文管理：分阶段读取文档，减少干扰'}, {'name': '状态与记忆：通过 outline.md 保持连续性'}, {'name': '工具系统：文件读写与物理隔离机制'}, {'name': '约束与恢复：最小切片反馈修复'}, {'name': '评估与观测：硬性自检规与独立 Reviewer'}]}, {'name': '全自动生产流程', 'children': [{'name': '阶段一：内容编写', 'children': [{'name': '口播稿：短句口语化'}, {'name': '开发计划：细化章节与步骤'}, {'name': '人工审核点：确认稿件与主题'}]}, {'name': '阶段二：网页开发', 'children': [{'name': '基准开发：完成第一章人工验收'}, {'name': '并行开发：多 Agent 同步编写后续章节'}, {'name': '视觉统一：全局变量控制字体颜色'}]}, {'name': '阶段三：音频合成', 'children': [{'name': '提取音频清单'}, {'name': '调用 TTS 批量生成'}]}, {'name': '阶段四：视频录制', 'children': [{'name': '手动模式：自定义步进'}, {'name': '自动模式：随音频节奏自动播放'}]}]}, {'name': '实战工具栈', 'children': [{'name': '核心 Agent：Cline (或 Cursor)'}, {'name': '大模型：MiniMax (性价比与多模态)'}, {'name': '配置工具：CC Switch (切换私有模型)'}, {'name': '终端管理：Tmux (可视化多 Agent 协作)'}, {'name': '仓库：Garden Skills (开源 Skill 协议)'}]}]}",
+      "x": 0,
+      "y": 0,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "307a0f34",
+      "type": "text",
+      "text": "{'name': '核心理念与优势', 'children': [{'name': '可控性：网页 coding 优于视频模型抽卡'}, {'name': '稳定性：Harness 架构驾驭模型能力'}, {'name': '成本低：支持本地与国产模型搭配'}, {'name': 'Skill 机制：Agent 操作手册与规则约束'}]}",
+      "x": 250,
+      "y": 0,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "2e058226",
+      "type": "text",
+      "text": "{'name': '可控性：网页 coding 优于视频模型抽卡'}",
+      "x": 500,
+      "y": 0,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "abdc38fe",
+      "type": "text",
+      "text": "{'name': '稳定性：Harness 架构驾驭模型能力'}",
+      "x": 500,
+      "y": 80,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "0446094d",
+      "type": "text",
+      "text": "{'name': '成本低：支持本地与国产模型搭配'}",
+      "x": 500,
+      "y": 160,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "f75b613b",
+      "type": "text",
+      "text": "{'name': 'Skill 机制：Agent 操作手册与规则约束'}",
+      "x": 500,
+      "y": 240,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "dca70eae",
+      "type": "text",
+      "text": "{'name': 'Skill 核心六要素', 'children': [{'name': '执行与编排：定义四阶段流程'}, {'name': '上下文管理：分阶段读取文档，减少干扰'}, {'name': '状态与记忆：通过 outline.md 保持连续性'}, {'name': '工具系统：文件读写与物理隔离机制'}, {'name': '约束与恢复：最小切片反馈修复'}, {'name': '评估与观测：硬性自检规与独立 Reviewer'}]}",
+      "x": 250,
+      "y": 80,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "387931f7",
+      "type": "text",
+      "text": "{'name': '执行与编排：定义四阶段流程'}",
+      "x": 500,
+      "y": 80,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "15646cfc",
+      "type": "text",
+      "text": "{'name': '上下文管理：分阶段读取文档，减少干扰'}",
+      "x": 500,
+      "y": 160,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "eefc4074",
+      "type": "text",
+      "text": "{'name': '状态与记忆：通过 outline.md 保持连续性'}",
+      "x": 500,
+      "y": 240,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "57de224c",
+      "type": "text",
+      "text": "{'name': '工具系统：文件读写与物理隔离机制'}",
+      "x": 500,
+      "y": 320,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "b2712622",
+      "type": "text",
+      "text": "{'name': '约束与恢复：最小切片反馈修复'}",
+      "x": 500,
+      "y": 400,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "53c342b8",
+      "type": "text",
+      "text": "{'name': '评估与观测：硬性自检规与独立 Reviewer'}",
+      "x": 500,
+      "y": 480,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "7e5799b0",
+      "type": "text",
+      "text": "{'name': '全自动生产流程', 'children': [{'name': '阶段一：内容编写', 'children': [{'name': '口播稿：短句口语化'}, {'name': '开发计划：细化章节与步骤'}, {'name': '人工审核点：确认稿件与主题'}]}, {'name': '阶段二：网页开发', 'children': [{'name': '基准开发：完成第一章人工验收'}, {'name': '并行开发：多 Agent 同步编写后续章节'}, {'name': '视觉统一：全局变量控制字体颜色'}]}, {'name': '阶段三：音频合成', 'children': [{'name': '提取音频清单'}, {'name': '调用 TTS 批量生成'}]}, {'name': '阶段四：视频录制', 'children': [{'name': '手动模式：自定义步进'}, {'name': '自动模式：随音频节奏自动播放'}]}]}",
+      "x": 250,
+      "y": 160,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "8f4c4e1d",
+      "type": "text",
+      "text": "{'name': '阶段一：内容编写', 'children': [{'name': '口播稿：短句口语化'}, {'name': '开发计划：细化章节与步骤'}, {'name': '人工审核点：确认稿件与主题'}]}",
+      "x": 500,
+      "y": 160,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "96e2aa94",
+      "type": "text",
+      "text": "{'name': '口播稿：短句口语化'}",
+      "x": 750,
+      "y": 160,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "b425cbdb",
+      "type": "text",
+      "text": "{'name': '开发计划：细化章节与步骤'}",
+      "x": 750,
+      "y": 240,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "05656b5b",
+      "type": "text",
+      "text": "{'name': '人工审核点：确认稿件与主题'}",
+      "x": 750,
+      "y": 320,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "4b80464e",
+      "type": "text",
+      "text": "{'name': '阶段二：网页开发', 'children': [{'name': '基准开发：完成第一章人工验收'}, {'name': '并行开发：多 Agent 同步编写后续章节'}, {'name': '视觉统一：全局变量控制字体颜色'}]}",
+      "x": 500,
+      "y": 240,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "d6cc477e",
+      "type": "text",
+      "text": "{'name': '基准开发：完成第一章人工验收'}",
+      "x": 750,
+      "y": 240,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "63c2f197",
+      "type": "text",
+      "text": "{'name': '并行开发：多 Agent 同步编写后续章节'}",
+      "x": 750,
+      "y": 320,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "e556b4cc",
+      "type": "text",
+      "text": "{'name': '视觉统一：全局变量控制字体颜色'}",
+      "x": 750,
+      "y": 400,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "fb6280ae",
+      "type": "text",
+      "text": "{'name': '阶段三：音频合成', 'children': [{'name': '提取音频清单'}, {'name': '调用 TTS 批量生成'}]}",
+      "x": 500,
+      "y": 320,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "75e476bb",
+      "type": "text",
+      "text": "{'name': '提取音频清单'}",
+      "x": 750,
+      "y": 320,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "c605724e",
+      "type": "text",
+      "text": "{'name': '调用 TTS 批量生成'}",
+      "x": 750,
+      "y": 400,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "ece375ca",
+      "type": "text",
+      "text": "{'name': '阶段四：视频录制', 'children': [{'name': '手动模式：自定义步进'}, {'name': '自动模式：随音频节奏自动播放'}]}",
+      "x": 500,
+      "y": 400,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "b3e5fe7d",
+      "type": "text",
+      "text": "{'name': '手动模式：自定义步进'}",
+      "x": 750,
+      "y": 400,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "651f3ee4",
+      "type": "text",
+      "text": "{'name': '自动模式：随音频节奏自动播放'}",
+      "x": 750,
+      "y": 480,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "baa55711",
+      "type": "text",
+      "text": "{'name': '实战工具栈', 'children': [{'name': '核心 Agent：Cline (或 Cursor)'}, {'name': '大模型：MiniMax (性价比与多模态)'}, {'name': '配置工具：CC Switch (切换私有模型)'}, {'name': '终端管理：Tmux (可视化多 Agent 协作)'}, {'name': '仓库：Garden Skills (开源 Skill 协议)'}]}",
+      "x": 250,
+      "y": 240,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "96dfdf9b",
+      "type": "text",
+      "text": "{'name': '核心 Agent：Cline (或 Cursor)'}",
+      "x": 500,
+      "y": 240,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "b2e15047",
+      "type": "text",
+      "text": "{'name': '大模型：MiniMax (性价比与多模态)'}",
+      "x": 500,
+      "y": 320,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "75d0e669",
+      "type": "text",
+      "text": "{'name': '配置工具：CC Switch (切换私有模型)'}",
+      "x": 500,
+      "y": 400,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "526901dc",
+      "type": "text",
+      "text": "{'name': '终端管理：Tmux (可视化多 Agent 协作)'}",
+      "x": 500,
+      "y": 480,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "306d886d",
+      "type": "text",
+      "text": "{'name': '仓库：Garden Skills (开源 Skill 协议)'}",
+      "x": 500,
+      "y": 560,
+      "width": 200,
+      "height": 60
+    }
+  ],
+  "edges": [
+    {
+      "id": "51471816",
+      "fromNode": "aa636d7a",
+      "toNode": "307a0f34"
+    },
+    {
+      "id": "423dca54",
+      "fromNode": "307a0f34",
+      "toNode": "2e058226"
+    },
+    {
+      "id": "1295a9e5",
+      "fromNode": "307a0f34",
+      "toNode": "abdc38fe"
+    },
+    {
+      "id": "8288b078",
+      "fromNode": "307a0f34",
+      "toNode": "0446094d"
+    },
+    {
+      "id": "10c14214",
+      "fromNode": "307a0f34",
+      "toNode": "f75b613b"
+    },
+    {
+      "id": "6dba13f6",
+      "fromNode": "aa636d7a",
+      "toNode": "dca70eae"
+    },
+    {
+      "id": "dab8667b",
+      "fromNode": "dca70eae",
+      "toNode": "387931f7"
+    },
+    {
+      "id": "8db5d794",
+      "fromNode": "dca70eae",
+      "toNode": "15646cfc"
+    },
+    {
+      "id": "7f147b5c",
+      "fromNode": "dca70eae",
+      "toNode": "eefc4074"
+    },
+    {
+      "id": "245aa11d",
+      "fromNode": "dca70eae",
+      "toNode": "57de224c"
+    },
+    {
+      "id": "50dba44a",
+      "fromNode": "dca70eae",
+      "toNode": "b2712622"
+    },
+    {
+      "id": "cef2624b",
+      "fromNode": "dca70eae",
+      "toNode": "53c342b8"
+    },
+    {
+      "id": "fe5fd931",
+      "fromNode": "aa636d7a",
+      "toNode": "7e5799b0"
+    },
+    {
+      "id": "f30665fe",
+      "fromNode": "7e5799b0",
+      "toNode": "8f4c4e1d"
+    },
+    {
+      "id": "8444f8b7",
+      "fromNode": "8f4c4e1d",
+      "toNode": "96e2aa94"
+    },
+    {
+      "id": "e48427ca",
+      "fromNode": "8f4c4e1d",
+      "toNode": "b425cbdb"
+    },
+    {
+      "id": "d67efe28",
+      "fromNode": "8f4c4e1d",
+      "toNode": "05656b5b"
+    },
+    {
+      "id": "f03c108f",
+      "fromNode": "7e5799b0",
+      "toNode": "4b80464e"
+    },
+    {
+      "id": "48cb2177",
+      "fromNode": "4b80464e",
+      "toNode": "d6cc477e"
+    },
+    {
+      "id": "bac0fb87",
+      "fromNode": "4b80464e",
+      "toNode": "63c2f197"
+    },
+    {
+      "id": "4f755532",
+      "fromNode": "4b80464e",
+      "toNode": "e556b4cc"
+    },
+    {
+      "id": "7a7174c6",
+      "fromNode": "7e5799b0",
+      "toNode": "fb6280ae"
+    },
+    {
+      "id": "36501382",
+      "fromNode": "fb6280ae",
+      "toNode": "75e476bb"
+    },
+    {
+      "id": "c50f6b81",
+      "fromNode": "fb6280ae",
+      "toNode": "c605724e"
+    },
+    {
+      "id": "73610399",
+      "fromNode": "7e5799b0",
+      "toNode": "ece375ca"
+    },
+    {
+      "id": "c5ab56e8",
+      "fromNode": "ece375ca",
+      "toNode": "b3e5fe7d"
+    },
+    {
+      "id": "9aa7b7ab",
+      "fromNode": "ece375ca",
+      "toNode": "651f3ee4"
+    },
+    {
+      "id": "753d676c",
+      "fromNode": "aa636d7a",
+      "toNode": "baa55711"
+    },
+    {
+      "id": "3ffec1f1",
+      "fromNode": "baa55711",
+      "toNode": "96dfdf9b"
+    },
+    {
+      "id": "0a490fbc",
+      "fromNode": "baa55711",
+      "toNode": "b2e15047"
+    },
+    {
+      "id": "b79f5aca",
+      "fromNode": "baa55711",
+      "toNode": "75d0e669"
+    },
+    {
+      "id": "40bbfe82",
+      "fromNode": "baa55711",
+      "toNode": "526901dc"
+    },
+    {
+      "id": "617e2d5c",
+      "fromNode": "baa55711",
+      "toNode": "306d886d"
+    }
+  ]
+}

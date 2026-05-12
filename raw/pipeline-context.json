@@ -1,13 +1,1 @@
-{
-  "pipeline_id": "pipe-665fe923",
-  "stage_b": {
-    "run_id": "gh-25710344080-1",
-    "start_time": "2026-05-12T02:52:09Z",
-    "end_time": "2026-05-12T02:53:35Z",
-    "duration_s": 86,
-    "api_calls": "unknown",
-    "videos_processed": 1,
-    "reports_generated": 1,
-    "mindmaps_generated": 1
-  }
-}
+{"pipeline_id": "pipe-e63d689", "stage_b": {"run_id": "gh-25711068188-1", "start_time": "2026-05-12T03:14:50Z", "end_time": "2026-05-12T03:16:51Z", "duration_s": 121, "videos_processed": 1, "reports_generated": 1, "mindmaps_generated": 1}}
