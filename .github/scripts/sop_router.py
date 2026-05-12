@@ -99,7 +99,7 @@ def main():
     # Read environment
     # 支持多个 webhook 地址（逗号分隔），所有地址都会收到通知
     base_urls = [u.strip() for u in os.environ.get(
-        "HERMES_WEBHOOK_BASE", "https://hermes-webhooks.vyibc.com/webhooks"
+        "HERMES_WEBHOOK_BASE", "https://hermes-webhooks-212.vyibc.com/webhooks"
     ).split(",") if u.strip()]
     secret = os.environ.get("HERMES_SOP_SECRET", "")
     before_sha = os.environ.get("BEFORE_SHA", "")

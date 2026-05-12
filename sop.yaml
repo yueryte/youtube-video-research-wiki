@@ -1,7 +1,7 @@
 name: youtube-research-wiki
 version: "1.0"
 wiki_local_path: /home/zhouhuijuan1987/wiki/youtube-video-research-wiki
-repo: divanoo65/youtube-video-research-wiki
+repo: yueryte/youtube-video-research-wiki
 
 notify:
   telegram:
